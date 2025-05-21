@@ -44,14 +44,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Cloudify", "Express", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Authentication System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A secure authentication system that enables user registration, login with hashed passwords, and password reset functionality using email-based OTP or token verification to ensure safe and reliable account access and recovery.",
+    technologies: ["Node", "React", "Express", "MongoDB","NodeMailer"],
   },
   {
     title: "Portfolio Website",
