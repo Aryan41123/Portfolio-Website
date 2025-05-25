@@ -52,6 +52,7 @@ export const PROJECTS = [
     description:
       "A secure authentication system that enables user registration, login with hashed passwords, and password reset functionality using email-based OTP or token verification to ensure safe and reliable account access and recovery.",
     technologies: ["Node", "React", "Express", "MongoDB","NodeMailer"],
+    link:"https://authenticate-w6po.onrender.com"
   },
   {
     title: "Portfolio Website",
@@ -61,11 +62,12 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "Event Scrapper",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "React.js", "Express", "MongoDB"],
+    link:"https://event-scrap.onrender.com"
   },
 ];
 
