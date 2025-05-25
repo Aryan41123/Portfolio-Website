@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "Event Scrapper",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "it Scraps all the events of a specific city",
     technologies: ["HTML", "CSS", "React.js", "Express", "MongoDB"],
     link:"https://event-scrap.onrender.com"
   },
