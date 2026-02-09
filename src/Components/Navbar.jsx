@@ -173,7 +173,7 @@ const Navbar = () => {
 
         {/* Footer info in sidebar */}
         <div className="absolute bottom-10 text-neutral-600 text-xs tracking-widest uppercase">
-          Aryan &copy; 2024
+          Aryan &copy; 2026
         </div>
       </div>
     </>
