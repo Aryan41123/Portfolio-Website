@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/image.webp";
+import project2 from "../assets/projects/School-Logo-1.png";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+// import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React as well as back-end technologies like Node.js,Express.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,19 +40,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sunshine Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Cloudify", "Express", "React", "Node.js", "MongoDB"],
+      "The Most Eminent Visas and Immigration Consultant service provider in major metros and overseas with reliability since 2010. We are committed to providing reliable client support.",
+    technologies: ["Cloudify", "Express", "Next", "Node.js", "MongoDB"],
+    link: "https://www.sunshineimmi.com/",
   },
   {
-    title: "Authentication System",
+    title: "St. Joseph's Convent School, Jharsuguda",
     image: project2,
     description:
-      "A secure authentication system that enables user registration, login with hashed passwords, and password reset functionality using email-based OTP or token verification to ensure safe and reliable account access and recovery.",
-    technologies: ["Node", "React", "Express", "MongoDB","NodeMailer"],
-    link:"https://authenticate-w6po.onrender.com"
+      "Established in 2012, St. Joseph's Convent School, Jharsuguda, is a premier Christian minority educational institution managed by the Kloster St. Trudpert Society and the Sisters of St. Joseph of St. Marc (S.J.S.M.). From its inception, the school has been dedicated to moulding the future of families and society by developing enlightened leaders and harmonious citizens",
+    technologies: ["Node", "React", "Express", "MongoDB", "NodeMailer"],
+    link: "https://www.sjcsjharsuguda.in/",
   },
   {
     title: "Portfolio Website",
@@ -60,14 +61,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React"],
-  },
-  {
-    title: "Event Scrapper",
-    image: project4,
-    description:
-      "it Scraps all the events of a specific city",
-    technologies: ["HTML", "CSS", "React.js", "Express", "MongoDB"],
-    link:"https://event-scrap.onrender.com"
   },
 ];
 

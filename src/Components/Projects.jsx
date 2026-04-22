@@ -48,7 +48,7 @@ const Projects = () => {
       className="border-b border-neutral-800 pb-24 overflow-hidden"
     >
       <h2 className="projects-title my-10 lg:my-20 text-center text-3xl lg:text-4xl text-white">
-        Projects
+        Live Projects
       </h2>
 
       <div className="project-list flex flex-col gap-8 lg:gap-12 px-4 sm:px-0">
